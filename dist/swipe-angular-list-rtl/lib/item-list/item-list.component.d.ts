@@ -1,0 +1,47 @@
+import { AfterViewInit, ElementRef, EventEmitter, TemplateRef, ViewContainerRef } from '@angular/core';
+import { SwipeServiceService } from '../swipe-service.service';
+import * as i0 from "@angular/core";
+export declare class ItemListComponent implements AfterViewInit {
+    private swService;
+    alive: boolean;
+    result: boolean;
+    selfElement: any;
+    idElement: any;
+    inside: {
+        id: any;
+        title: '';
+        subTitle: '';
+        mark: false;
+    };
+    disabledMark: boolean;
+    showMark: boolean;
+    rtl: boolean;
+    itemClass: string;
+    defaultEdit: TemplateRef<any>;
+    defaultTrash: TemplateRef<any>;
+    defaultMark: TemplateRef<any>;
+    defaultNotMark: TemplateRef<any>;
+    defaultCustom: TemplateRef<any>;
+    customTemplate: TemplateRef<any>;
+    editTemplate: TemplateRef<any>;
+    trashTemplate: TemplateRef<any>;
+    markTemplate: TemplateRef<any>;
+    notMarkTemplate: TemplateRef<any>;
+    callback: EventEmitter<any>;
+    swClick: EventEmitter<any>;
+    viewContainerEdit: ViewContainerRef;
+    viewContainerTrash: ViewContainerRef;
+    viewContainerMark: ViewContainerRef;
+    viewContainerCustom: ViewContainerRef;
+    clickOut(event: any): void;
+    constructor(elRef: ElementRef, swService: SwipeServiceService);
+    private random;
+    private getParent;
+    swipeleft: (res: any) => void;
+    swiperight: (res: any) => void;
+    clickItem: (a: any) => void;
+    action: (opt?: string) => void;
+    ngAfterViewInit(): void;
+    static ɵfac: i0.ɵɵFactoryDef<ItemListComponent, never>;
+    static ɵcmp: i0.ɵɵComponentDefWithMeta<ItemListComponent, "sw-item-list", never, { "inside": "inside"; "disabledMark": "disable-mark"; "showMark": "show-mark"; "rtl": "rtl"; "itemClass": "item-class"; "customTemplate": "customTemplate"; "editTemplate": "editTemplate"; "trashTemplate": "trashTemplate"; "markTemplate": "markTemplate"; "notMarkTemplate": "notMarkTemplate"; }, { "callback": "callback"; "swClick": "swClick"; }, never, never>;
+}

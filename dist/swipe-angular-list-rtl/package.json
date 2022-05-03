@@ -1,0 +1,41 @@
+{
+  "name": "swipe-angular-list-rtl",
+  "version": "1.0.8",
+  "peerDependencies": {
+    "@angular/common": "^8.2.0",
+    "@angular/core": "^8.2.0",
+    "hammerjs": "^2.0.8"
+  },
+  "license": "ISC",
+  "keywords": [
+    "swipe",
+    "list",
+    "rtl"
+  ],
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.4.",
+  "main": "bundles/swipe-angular-list-rtl.umd.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yoffic08/swipe-angular-list-rtl.git"
+  },
+  "author": "Igal",
+  "bugs": {
+    "url": "https://github.com/Yoffic08/swipe-angular-list-rtl.git/issues"
+  },
+  "homepage": "https://github.com/Yoffic08/swipe-angular-list-rtl.git#readme",
+  "bundledDependencies": [
+    "hammerjs"
+  ],
+  "module": "fesm2015/swipe-angular-list-rtl.js",
+  "es2015": "fesm2015/swipe-angular-list-rtl.js",
+  "esm2015": "esm2015/swipe-angular-list-rtl.js",
+  "fesm2015": "fesm2015/swipe-angular-list-rtl.js",
+  "typings": "swipe-angular-list-rtl.d.ts",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy. This is not allowed.\\nPlease delete and rebuild the package, without compiling with Ivy, before attempting to publish.\\n')\" && exit 1"
+  }
+}
