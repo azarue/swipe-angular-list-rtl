@@ -33,6 +33,7 @@ export class ItemListComponent implements AfterViewInit {
 
   @Input('show-mark') showMark = false;
   @Input('rtl') rtl = false;
+  @Input('mark-color') markColor = "#F96060";
   @Input('item-class') itemClass = '';
  
   // @ts-ignore

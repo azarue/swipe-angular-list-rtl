@@ -4,6 +4,7 @@
   <div>
     <sw-item-list
       [rtl]=rtl
+      [mark-color] = "markColor"
       *ngFor="let item of list"
       [inside]="item"
       [item-class]="'list-custom'"
@@ -16,6 +17,7 @@
       [customTemplate]="customTemplateSrc"
       [notMarkTemplate]="defaultNotMark"
       (callback)="action($event)"
+      
     >
     </sw-item-list>
   </div>

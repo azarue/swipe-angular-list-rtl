@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'for-test';
   rtl = true;
+  markColor = "#06be4a"
   list = [
     {
       id: 1,

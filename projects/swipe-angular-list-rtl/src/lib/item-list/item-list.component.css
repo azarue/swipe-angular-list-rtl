@@ -83,7 +83,7 @@
   height: 2rem;
   margin-top: .75rem;
   margin-right: -.3rem;
-  border-right: solid .175rem #F96060;
+  border-right: solid .175rem var(--value);
 }
 
 
@@ -113,7 +113,7 @@
 
 .swipe-d-flex.rtl {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 
 .rtl .option-list:last-child {
@@ -132,8 +132,8 @@
   height: 2rem;
   margin-top: .75rem;
   margin-left: -.3rem; 
-  border-left: solid .175rem #F96060;
-  margin-right: 0.3rem;
+  border-left: solid .175rem var(--value);
+  /* margin-right: 0.3rem; */
   border-right: none;
 }
 
