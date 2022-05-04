@@ -1,6 +1,7 @@
-import * as i0 from "@angular/core";
+import * as ɵngcc0 from '@angular/core';
 export declare class SwipeAngularListService {
     constructor();
-    static ɵfac: i0.ɵɵFactoryDef<SwipeAngularListService, never>;
-    static ɵprov: i0.ɵɵInjectableDef<SwipeAngularListService>;
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<SwipeAngularListService, never>;
 }
+
+//# sourceMappingURL=swipe-angular-list.service.d.ts.map
