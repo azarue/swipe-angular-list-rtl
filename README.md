@@ -25,3 +25,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Build library swipe-angular-list-rtl-2
+ng build swipe-angular-list-rtl-2
+
+## publish NPM
+cd /Users/azarue/Projects/Seatback+/shtut/shtut/dist/swipe-angular-list-rtl
+npm publish
