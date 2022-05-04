@@ -1,6 +1,6 @@
 {
-  "name": "swipe-angular-list-rtl",
-  "version": "1.0.8",
+  "name": "swipe-angular-list-rtl-2",
+  "version": "1.0.9",
   "peerDependencies": {
     "@angular/common": "^8.2.0",
     "@angular/core": "^8.2.0",

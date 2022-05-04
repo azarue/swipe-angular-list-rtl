@@ -120,7 +120,7 @@
         }
       }
     },
-    "swipe-angular-list-rtl": {
+    "swipe-angular-list-rtl-2": {
       "projectType": "library",
       "root": "projects/swipe-angular-list-rtl",
       "sourceRoot": "projects/swipe-angular-list-rtl/src",
